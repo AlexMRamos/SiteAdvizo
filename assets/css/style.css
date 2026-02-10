@@ -6,7 +6,7 @@ body{color:#333;line-height:1.6}
 .header .container{display:flex;justify-content:space-between;align-items:center}
 .logo{color:#fff}
 .header nav a{color:#fff;margin-left:20px;text-decoration:none}
-.btn{padding:10px 20px;border-radius:4px;text-decoration:none}
+.btn{padding:10px 20px;border-radius:4px}
 .primary{background:#1e88e5;color:#fff}
 .hero{background:#e6f4ff;padding:80px 0;text-align:center}
 .section{padding:60px 0}
@@ -15,6 +15,6 @@ body{color:#333;line-height:1.6}
 .card{background:#fff;padding:25px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
 .list{list-style:none}
 .list li{padding:8px 0}
-.contact form{display:grid;gap:12px;max-width:500px}
+.contact form{display:grid;gap:12px;max-width:400px}
 .contact input,.contact textarea{padding:10px;border:1px solid #ccc;border-radius:4px}
 .footer{background:#0f1f3f;color:#fff;text-align:center;padding:20px}
