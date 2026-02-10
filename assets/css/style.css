@@ -1,9 +1,20 @@
 
-body { font-family: Arial, sans-serif; margin: 0; }
-.header { background: #0f1f3f; padding: 15px; color: #fff; }
-.menu { list-style: none; display: flex; gap: 15px; }
-.menu a { color: #fff; text-decoration: none; }
-.hero { padding: 60px; background: #e6f4ff; text-align: center; }
-.cards { display: flex; gap: 20px; padding: 20px; }
-.card { border: 1px solid #ccc; padding: 20px; flex: 1; }
-footer { background: #0f1f3f; color: #fff; text-align: center; padding: 10px; }
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{color:#333;line-height:1.6}
+.container{width:90%;max-width:1100px;margin:auto}
+.header{background:#0f1f3f;padding:20px 0}
+.header .container{display:flex;justify-content:space-between;align-items:center}
+.logo{color:#fff}
+.header nav a{color:#fff;margin-left:20px;text-decoration:none}
+.btn{padding:10px 20px;border-radius:4px;text-decoration:none}
+.primary{background:#1e88e5;color:#fff}
+.hero{background:#e6f4ff;padding:80px 0;text-align:center}
+.section{padding:60px 0}
+.gray{background:#f7f7f7}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:#fff;padding:25px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.list{list-style:none}
+.list li{padding:8px 0}
+.contact form{display:grid;gap:12px;max-width:500px}
+.contact input,.contact textarea{padding:10px;border:1px solid #ccc;border-radius:4px}
+.footer{background:#0f1f3f;color:#fff;text-align:center;padding:20px}

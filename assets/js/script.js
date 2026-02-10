@@ -1,1 +1,3 @@
-console.log('Site Advizo carregado');
+
+// Placeholder para futuras interações
+console.log('Advizo site moderno carregado');
