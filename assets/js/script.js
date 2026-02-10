@@ -1,1 +1,1 @@
-console.log('Advizo site OK');
+console.log('Advizo XP style carregado');

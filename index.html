@@ -1,95 +1,378 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advizo | Consultoria Tributária Estratégica</title>
-  <meta name="description" content="Consultoria tributária especializada em recuperação de créditos, planejamento tributário e gestão de passivos fiscais.">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advizo - Excelência em Soluções Fiscais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="#inicio">
+                    <span class="logo-text">ADVIZO</span>
+                </a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre a Advizo</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="#solucoes" class="nav__link">Soluções</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#recuperacao">Recuperação de créditos fiscais</a></li>
+                            <li><a href="#planejamento">Planejamento e gestão de dívida fiscal</a></li>
+                            <li><a href="#tributario">Planejamento tributário</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="#quem" class="nav__link">Quem somos</a></li>
+                </ul>
+                
+                <a href="#contato" class="btn-primary nav__cta">Contato</a>
+            </div>
 
-<header class="header">
-  <div class="container">
-    <h1 class="logo">Advizo</h1>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#servicos">Serviços</a>
-      <a href="#diferenciais">Diferenciais</a>
-      <a href="#contato" class="btn primary">Contato</a>
-    </nav>
-  </div>
-</header>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-<section class="hero">
-  <div class="container">
-    <h2>Soluções Tributárias Inteligentes</h2>
-    <p>Estratégia, segurança jurídica e eficiência fiscal para empresas.</p>
-    <a href="#contato" class="btn primary">Fale com um especialista</a>
-  </div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero__background"></div>
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    <span class="hero__title-line">Excelência em</span>
+                    <span class="hero__title-line">soluções fiscais</span>
+                </h1>
+                <p class="hero__subtitle">Experiência e estratégia com foco na geração de valor e eficiência aos nossos clientes</p>
+                <a href="#sobre" class="btn-primary btn-large">Conheça nossos serviços</a>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <span>Role para descobrir</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
 
-<section id="sobre" class="section">
-  <div class="container">
-    <h2>Quem Somos</h2>
-    <p>
-      A Advizo é uma consultoria tributária especializada na recuperação de créditos,
-      planejamento tributário e estruturação de soluções para gestão de passivos fiscais,
-      sempre com foco em resultados e compliance.
-    </p>
-  </div>
-</section>
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Sobre nós</span>
+                <h2 class="section-title">Somos uma consultoria tributária especializada em recuperação de créditos fiscais, planejamento tributário e gestão de dívidas fiscais.</h2>
+            </div>
+            
+            <div class="about__content">
+                <div class="about__text">
+                    <p>Para alcançar resultados e resolver desafios, é necessário mais do que conhecimento da legislação fiscal e uso de ferramentas padronizadas.</p>
+                    
+                    <p>Na <strong>Advizo</strong>, oferecemos soluções integradas nas áreas jurídica, contábil, financeira e de gestão, desempenhadas por uma equipe multidisciplinar, com décadas de experiência apoiando médias e grandes empresas a repensarem seus desafios tributários.</p>
+                    
+                    <p>Somos parceiros estratégicos de nossos clientes, simplificando desafios tributários e gerando resultados concretos e eficiência competitiva.</p>
+                </div>
+                
+                <div class="about__stats">
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Anos de experiência</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Empresas atendidas</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Áreas de especialização</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="servicos" class="section gray">
-  <div class="container">
-    <h2>Nossos Serviços</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Recuperação de Créditos Tributários</h3>
-        <p>Identificação de tributos pagos indevidamente ou a maior, com segurança jurídica.</p>
-      </div>
-      <div class="card">
-        <h3>Planejamento Tributário</h3>
-        <p>Estratégias legais para redução da carga tributária e aumento da eficiência fiscal.</p>
-      </div>
-      <div class="card">
-        <h3>Gestão de Passivo Fiscal</h3>
-        <p>Mapeamento, negociação e regularização de débitos fiscais.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Services Section -->
+    <section class="services" id="solucoes">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Nossos serviços</span>
+                <h2 class="section-title">Soluções especializadas para seu negócio</h2>
+            </div>
 
-<section id="diferenciais" class="section">
-  <div class="container">
-    <h2>Diferenciais</h2>
-    <ul class="list">
-      <li>Atuação estratégica e personalizada</li>
-      <li>Equipe com sólida experiência tributária</li>
-      <li>Compliance e segurança jurídica</li>
-      <li>Foco em resultados mensuráveis</li>
-    </ul>
-  </div>
-</section>
+            <div class="services__tabs">
+                <button class="tab-btn active" data-tab="recuperacao">Recuperação de créditos fiscais</button>
+                <button class="tab-btn" data-tab="planejamento">Planejamento e gestão de dívida fiscal</button>
+                <button class="tab-btn" data-tab="tributario">Planejamento tributário</button>
+            </div>
 
-<section id="contato" class="section contact">
-  <div class="container">
-    <h2>Contato</h2>
-    <form>
-      <input type="text" placeholder="Nome" required>
-      <input type="email" placeholder="E-mail" required>
-      <textarea placeholder="Mensagem" required></textarea>
-      <button class="btn primary">Enviar</button>
-    </form>
-  </div>
-</section>
+            <div class="services__content">
+                <!-- Tab 1 -->
+                <div class="service-tab active" id="recuperacao">
+                    <div class="service-grid">
+                        <div class="service-image">
+                            <div class="image-placeholder"></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>Recuperação de créditos fiscais</h3>
+                            <p>Revisão das práticas fiscais e previdenciárias do período histórico. Em todos os cenários, a Advizo atua de ponta-a-ponta, desde a identificação das oportunidades até a retificação das obrigações, na elaboração de compensações e ajuizamento de ações.</p>
+                            
+                            <p>Uma vez elaboradas as compensações, a Advizo acompanha os clientes em todo o processo de compensação dos créditos identificados.</p>
+                            
+                            <ul class="service-list">
+                                <li>Tributos apurados a maior</li>
+                                <li>Créditos e deduções não aproveitados</li>
+                                <li>Monetização de créditos fiscais em balanço</li>
+                                <li>Medidas judiciais ativas das quais o cliente ainda não tenha se beneficiado</li>
+                            </ul>
+                            
+                            <a href="#contato" class="btn-secondary">Fale conosco</a>
+                        </div>
+                    </div>
+                </div>
 
-<footer class="footer">
-  <div class="container">
-    <p>© 2026 Advizo Consultoria Tributária</p>
-  </div>
-</footer>
+                <!-- Tab 2 -->
+                <div class="service-tab" id="planejamento">
+                    <div class="service-grid">
+                        <div class="service-image">
+                            <div class="image-placeholder"></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>Planejamento e gestão de dívida fiscal</h3>
+                            <p>Identificação de alternativas mais eficientes para pagamento de dívidas fiscais existentes e projetadas.</p>
+                            
+                            <p>A Advizo atua no mapeamento das dívidas, conciliação das informações contábeis e financeiras, desenho dos cenários alternativos e protocolo dos pedidos de renegociação.</p>
+                            
+                            <ul class="service-list">
+                                <li>Renegociação de parcelamentos existentes para obtenção de novos descontos e alongamento do prazo de pagamento</li>
+                                <li>Negociação de programas de transação de dívidas federais e estaduais junto a PGFN e PGE</li>
+                                <li>Modelagem mais complexas, envolvendo a projeção de dívidas fiscais futuras, com cenários alternativos para renegociação</li>
+                            </ul>
+                            
+                            <a href="#contato" class="btn-secondary">Fale conosco</a>
+                        </div>
+                    </div>
+                </div>
 
-<script src="assets/js/script.js"></script>
+                <!-- Tab 3 -->
+                <div class="service-tab" id="tributario">
+                    <div class="service-grid">
+                        <div class="service-image">
+                            <div class="image-placeholder"></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>Planejamento tributário</h3>
+                            <p>Identificação de alavancas fiscais e previdenciárias com o objetivo de melhorar o resultado e fluxo de caixa dos clientes.</p>
+                            
+                            <p>A <strong>Advizo</strong> atua a quatro mãos com os clientes, desde a projeção dos números fiscais iniciais até a elaboração dos pleitos de incentivos, protocolo junto às autoridades fiscais e acompanhamento dos processos administrativos.</p>
+                            
+                            <ul class="service-list">
+                                <li>Revisão de regimes de tributação para fins federais</li>
+                                <li>Revisão da malha fiscal-logística de fornecedores e clientes para solicitação de incentivos de ICMS</li>
+                                <li>Análise comparativa de incentivos, regimes especiais e ações judiciais de concorrentes</li>
+                                <li>Revisão das estruturas societária e operacional dos clientes com o objetivo de melhorar a eficiência fiscal</li>
+                            </ul>
+                            
+                            <a href="#contato" class="btn-secondary">Fale conosco</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="quem">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Quem somos</span>
+                <h2 class="section-title">Nossa equipe de especialistas</h2>
+            </div>
+
+            <div class="team__grid">
+                <!-- Team Member 1 -->
+                <div class="team-card">
+                    <div class="team-card__image">
+                        <div class="avatar-placeholder">AR</div>
+                    </div>
+                    <div class="team-card__content">
+                        <h3 class="team-card__name">Andre Rosa</h3>
+                        <p class="team-card__role">Sócio fundador</p>
+                        <p class="team-card__email">andre@advizo.com.br</p>
+                        
+                        <div class="team-card__bio">
+                            <p><strong>Advogado tributarista</strong>, formado pela PUC-SP, especializado em contabilidade e pós-graduado em negócios pela Link School of Business.</p>
+                            
+                            <p><strong>15+ anos de experiência em consultoria empresarial</strong> com foco em estruturação fiscal e operações de M&A, atendendo a entidades locais e estrangeiras, incluindo grandes corporações, multinacionais brasileiras, fundos de private equity, fundos soberanos e fundos de pensão.</p>
+                            
+                            <p>Andre iniciou sua carreira na KPMG e, antes de fundar a Advizo, atuou como diretor sênior de tributos na Alvarez & Marsal.</p>
+                            
+                            <p>É nativo em português e fluente em inglês, espanhol e alemão.</p>
+                        </div>
+                        
+                        <a href="https://www.linkedin.com/in/andreandraderosa/" target="_blank" class="team-card__linkedin">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="team-card">
+                    <div class="team-card__image">
+                        <div class="avatar-placeholder">LS</div>
+                    </div>
+                    <div class="team-card__content">
+                        <h3 class="team-card__name">Leonardo Salzedas</h3>
+                        <p class="team-card__role">Sócio fundador</p>
+                        <p class="team-card__email">leonardo@advizo.com.br</p>
+                        
+                        <div class="team-card__bio">
+                            <p><strong>Advogado tributarista</strong>, formado pela UNESP e pós-graduado em direito tributário pela FGV e em finanças pelo INSPER.</p>
+                            
+                            <p><strong>15+ anos de experiência em consultoria empresarial</strong> com foco em planejamento tributário, gestão fiscal interina e planejamento de dívidas fiscais.</p>
+                            
+                            <p>Leonardo iniciou sua carreira na Ernst & Young e, antes de fundar a Advizo, atuou como diretor sênior de tributos na Alvarez & Marsal.</p>
+                            
+                            <p>É nativo em português e fluente em inglês.</p>
+                        </div>
+                        
+                        <a href="https://www.linkedin.com/in/leonardo-salzedas-85115a22/" target="_blank" class="team-card__linkedin">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <h2>Qual seu desafio hoje?</h2>
+                    <p>Entre em contato conosco e descubra como podemos ajudar sua empresa a otimizar a gestão tributária e alcançar melhores resultados.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <div>
+                                <strong>Email</strong>
+                                <a href="mailto:contato@advizo.com.br">contato@advizo.com.br</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <div>
+                                <strong>Telefone</strong>
+                                <a href="tel:+551151999900">+55 11 5199-9900</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div>
+                                <strong>Endereço</strong>
+                                <p>Avenida Engenheiro Luís Carlos Berrini, 105<br>
+                                Ed. Thera Office - Conj. 1412<br>
+                                Cidade Monções, São Paulo/SP<br>
+                                CEP 04571-010</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Telefone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Mensagem" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn-full">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <div class="logo-text">ADVIZO</div>
+                    <p>Somos uma consultoria tributária especializada em recuperação de créditos fiscais, planejamento tributário e gestão de dívidas fiscais.</p>
+                </div>
+                
+                <div class="footer__nav">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre a Advizo</a></li>
+                        <li><a href="#solucoes">Soluções</a></li>
+                        <li><a href="#quem">Quem somos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__services">
+                    <h4>Soluções</h4>
+                    <ul>
+                        <li><a href="#recuperacao">Recuperação de créditos fiscais</a></li>
+                        <li><a href="#planejamento">Planejamento e gestão de dívida fiscal</a></li>
+                        <li><a href="#tributario">Planejamento tributário</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__contact">
+                    <h4>Fale conosco</h4>
+                    <ul>
+                        <li><a href="mailto:contato@advizo.com.br">contato@advizo.com.br</a></li>
+                        <li><a href="tel:+551151999900">+55 11 5199-9900</a></li>
+                        <li>Av. Eng. Luís Carlos Berrini, 105<br>São Paulo/SP - CEP 04571-010</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 Advizo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
